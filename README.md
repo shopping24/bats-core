@@ -147,7 +147,8 @@ Check out a copy of the Bats repository, then build a container image:
 
     $ git clone https://github.com/bats-core/bats-core.git
     $ cd bats-core
-    $ docker build --tag bats/bats:latest .
+    $ docker build --tag hub.s24.com/s24/bats-junit:latest .
+    $ docker push hub.s24.com/s24/bats-junit:latest
 
 This creates a local Docker image called `bats/bats:latest` based on [Alpine
 Linux](https://github.com/gliderlabs/docker-alpine/blob/master/docs/usage.md) 
